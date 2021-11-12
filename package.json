@@ -1,12 +1,12 @@
 {
   "name": "stylelint-config-cotiweb",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Standard shareable config for Stylelint",
   "keywords": [
     "stylelint",
     "stylelint-config"
   ],
-  "repository": "cotiweb/stylelint-config-cotiweb",
+  "repository": "webcoti/stylelint-config-cotiweb",
   "license": "MIT",
   "author": "Fabiano Nunes Parente",
   "main": "index.js",

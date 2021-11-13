@@ -16,13 +16,21 @@
   "scripts": {
     "release": "np"
   },
+  "prettier": "prettier-config-webcoti",
+  "eslintConfig": {
+    "extends": "webcoti"
+  },
   "dependencies": {
     "stylelint-config-standard-scss": "^2.0.1",
     "stylelint-no-unsupported-browser-features": "^5.0.2"
   },
   "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-webcoti": "^1.1.0",
     "markdownlint-cli": "^0.29.0",
-    "np": "^7.5.0"
+    "np": "^7.5.0",
+    "prettier": "^2.4.1",
+    "prettier-config-webcoti": "^1.0.0"
   },
   "peerDependencies": {
     "stylelint": "^14.0.0"

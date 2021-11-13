@@ -1,12 +1,12 @@
 {
-  "name": "stylelint-config-webcoti",
+  "name": "@webcoti/stylelint-config",
   "version": "1.0.3",
   "description": "Standard shareable config for Stylelint",
   "keywords": [
     "stylelint",
     "stylelint-config"
   ],
-  "repository": "webcoti/stylelint-config-webcoti",
+  "repository": "webcoti/stylelint-config",
   "license": "MIT",
   "author": "Fabiano Nunes Parente",
   "main": "index.js",
@@ -16,9 +16,9 @@
   "scripts": {
     "release": "np"
   },
-  "prettier": "prettier-config-webcoti",
+  "prettier": "@webcoti/prettier-config",
   "eslintConfig": {
-    "extends": "webcoti"
+    "extends": "@webcoti/eslint-config"
   },
   "dependencies": {
     "stylelint-config-standard-scss": "^2.0.1",

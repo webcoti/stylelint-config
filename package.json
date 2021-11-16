@@ -21,6 +21,7 @@
     "extends": "@webcoti/eslint-config"
   },
   "dependencies": {
+    "postcss": "^8.3.3",
     "stylelint-config-standard-scss": "^2.0.1",
     "stylelint-no-unsupported-browser-features": "^5.0.2"
   },

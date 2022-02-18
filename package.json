@@ -26,12 +26,12 @@
     "stylelint-no-unsupported-browser-features": "^5.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.2.0",
-    "eslint-config-webcoti": "^1.1.0",
+    "@webcoti/eslint-config": "^1.4.0",
+    "@webcoti/prettier-config": "^1.2.1",
+    "eslint": "^8.9.0",
     "markdownlint-cli": "^0.29.0",
     "np": "^7.5.0",
-    "prettier": "^2.4.1",
-    "prettier-config-webcoti": "^1.0.0"
+    "prettier": "^2.5.1"
   },
   "peerDependencies": {
     "stylelint": "^14.0.0"

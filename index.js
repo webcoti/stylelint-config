@@ -12,5 +12,11 @@ module.exports = {
 				ignorePartialSupport: true,
 			},
 		],
+		'font-family-no-missing-generic-family-keyword': [
+			true,
+			{
+				ignoreFontFamilies: [/Font/, /Awesome/],
+			},
+		],
 	},
 }

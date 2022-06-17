@@ -21,17 +21,17 @@
     "extends": "@webcoti/eslint-config"
   },
   "dependencies": {
-    "postcss": "^8.3.3",
-    "stylelint-config-standard-scss": "^3.0.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.2"
+    "postcss": "^8.4.14",
+    "stylelint-config-standard-scss": "^4.0.0",
+    "stylelint-no-unsupported-browser-features": "^5.0.3"
   },
   "devDependencies": {
     "@webcoti/eslint-config": "^1.4.0",
     "@webcoti/prettier-config": "^1.2.1",
-    "eslint": "^8.9.0",
-    "markdownlint-cli": "^0.29.0",
-    "np": "^7.5.0",
-    "prettier": "^2.5.1"
+    "eslint": "^8.17.0",
+    "markdownlint-cli": "^0.31.1",
+    "np": "^7.6.1",
+    "prettier": "^2.7.1"
   },
   "peerDependencies": {
     "stylelint": "^14.0.0"

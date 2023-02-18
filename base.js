@@ -14,7 +14,7 @@ module.exports = {
 		'font-family-no-missing-generic-family-keyword': [
 			true,
 			{
-				ignoreFontFamilies: [/Font/, /Awesome/],
+				ignoreFontFamilies: [/Font/, /Awesome/, /Glyphicons/],
 			},
 		],
 	},

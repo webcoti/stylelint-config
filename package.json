@@ -1,6 +1,6 @@
 {
   "name": "@webcoti/stylelint-config",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Standard shareable config for Stylelint",
   "keywords": [
     "stylelint",

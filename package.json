@@ -6,12 +6,17 @@
     "stylelint",
     "stylelint-config"
   ],
+  "exports": {
+    ".": "./index.js",
+    "./less": "./less.js"
+  },
   "repository": "webcoti/stylelint-config",
   "license": "MIT",
   "author": "Fabiano Nunes Parente",
   "main": "index.js",
   "files": [
-    "index.js"
+    "base.js",
+    "less.js"
   ],
   "scripts": {
     "release": "np"
@@ -22,6 +27,8 @@
   },
   "dependencies": {
     "postcss": "^8.4.19",
+    "postcss-less": "^6.0.0",
+    "stylelint-config-recommended-scss": "^9.0.1",
     "stylelint-config-standard-scss": "^6.1.0",
     "stylelint-no-unsupported-browser-features": "^6.0.1"
   },
